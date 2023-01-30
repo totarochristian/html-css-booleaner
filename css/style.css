@@ -3,7 +3,7 @@ body{
 }
 main{
     margin: 5px;
-    width: 30%;
+    width: 650px;
 }
 #logoDiv{
     height: 90px;
@@ -30,4 +30,15 @@ main{
 }
 .author{
     color: #4EA0FF;
+}
+.timFigure{
+    width: 100%;;
+    margin-top: 15px;
+    margin-left: 0;
+}
+.timFigure img{
+    height: 230px;
+}
+.timFigure figcaption{
+    font-size: 0.7em;
 }
