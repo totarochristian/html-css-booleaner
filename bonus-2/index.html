@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Booleaner</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Header of the page, where will be placed the logo section -->
+    <header>
+        <!-- Logo div defined by the img logo with background color and background image repeated in horizontal -->
+        <div id="logoDiv">
+            <img src="../img/logo.svg" alt="Logo The Booleaners">
+        </div>
+    </header>
+    <!-- End of the header -->
+
+    <div class="openedArticle">
+        <!-- Main sections of the page, where will be placed all the section about the things to show to the user -->
+        <main>
+            <!-- Title section. h1 title, sub-title with the author in blue and an other sub-title with the date -->
+            <section id="titleSection">
+                <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
+                <p class="authorParagraph">Scritto da <span class="author">The Booleaner</span></p>
+                <p class="dateParagraph">il 10/10/2020</p>
+            </section>
+
+            <!-- Figure with 2 image and 1 figcaption that will contain 2 row -->
+            <figure class="timFigure">
+                <img src="../img/tim-1.jpg" alt="Tim Berners-Lee">
+                <img src="../img/tim-2.jpg" alt="Tim Berners-Lee">
+                <figcaption>
+                    1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen<br>
+                    2nd Photo: Wikimedia, by Paul Clarke
+                </figcaption>
+            </figure>
+
+            <!-- Paragraph with a marked sentence -->
+            <p class="specialParagraph">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim
+                ad minim veniam, quis nostrud <mark>exerci tation ullamcorper suscipit lobortis nisl ut
+                    aliquip ex ea commodo consequat.</mark> Duis autem vel eum iriure dolor in hendrerit in
+                vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+                vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
+                delenit augue duis dolore te feugait nulla facilisi.
+            </p>
+
+            <!-- div with the unordered-list -->
+            <div class="specialParagraph">
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                        tincidunt ut
+                        laoreet dolore magna aliquam erat volutpat.</li>
+                    <li>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                        aliquip ex ea commodo consequat.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                        tincidunt ut
+                        laoreet dolore magna aliquam erat volutpat.</li>
+                </ul>
+            </div>
+
+            <!-- Div with the table -->
+            <div class="specialParagraph">
+                <!-- Table section with a table -->
+                <table cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th class="tightColumn">Lorem ipsum dolor</th>
+                            <th class="tightColumn">Lorem ipsum dolor</th>
+                            <th class="largeColumn">Lorem ipsum dolor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="coloredRow">
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ab dolor aperiam sequi
+                                dolores, accusamus eveniet, quas ipsum consequuntur recusandae incidunt fugiat aliquam
+                                explicabo numquam hic, quibusdam quidem inventore beatae!</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ab dolor aperiam sequi
+                                dolores, accusamus eveniet, quas ipsum consequuntur recusandae incidunt fugiat aliquam
+                                explicabo numquam hic, quibusdam quidem inventore beatae!</td>
+                        </tr>
+                        <tr class="coloredRow">
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ab dolor aperiam sequi
+                                dolores, accusamus eveniet, quas ipsum consequuntur recusandae incidunt fugiat aliquam
+                                explicabo numquam hic, quibusdam quidem inventore beatae!</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Paragraph with a marked sentence -->
+            <p class="specialParagraph">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim
+                ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
+                vulputate velit esse molestie consequat, <mark>vel illum dolore eu feugiat nulla facilisis at
+                    vero eros et accumsan et iusto</mark> odio dignissim qui blandit praesent luptatum zzril
+                delenit augue duis dolore te feugait nulla facilisi.
+            </p>
+        </main>
+        <!-- End of the main sections -->
+
+        <!-- Aside of the page, this content is only indirectly related to the document's main content -->
+        <aside>
+            <section class="mightInterest">
+                <h2>Potrebbero interessarti</h2>
+                <div id="article1" class="article">
+                    <span>Lorem ipsum dolor</span>
+                </div>
+                <div id="article2" class="article">
+                    <span>Lorem ipsum dolor</span>
+                </div>
+            </section>
+        </aside>
+        <!-- End of the aside -->
+
+        <!-- Footer of the page, where will be placed things related top the author, privacy and cookie policy -->
+        <footer>
+            <p>Made with &hearts; by Christian Totaro</p>
+        </footer>
+        <!-- End of the footer -->
+    </div>
+</body>
+
+</html>
