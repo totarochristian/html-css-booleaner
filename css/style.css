@@ -1,6 +1,9 @@
-*{
+body{
     margin: 0;
-    padding: 0;
+}
+main{
+    margin: 5px;
+    width: 30%;
 }
 #logoDiv{
     height: 90px;
@@ -11,4 +14,20 @@
     height: 40px;
     padding-left: 5px;
     padding-top: 40px;
+}
+#titleSection h1{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 0.6em;
+}
+.authorParagraph, .dateParagraph{
+    margin: 0;
+    color: grey;
+    font-size: 0.8em;
+}
+.dateParagraph{
+    font-size: 0.6em;
+}
+.author{
+    color: #4EA0FF;
 }
