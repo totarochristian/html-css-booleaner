@@ -90,8 +90,8 @@ main{
     background-position: center;
 }
 #article1{
-    background-image: url("../../img/monitor.jpg");
+    background-image: url("../img/monitor.jpg");
 }
 #article2{
-    background-image: url("../../img/graph.jpg");
+    background-image: url("../img/graph.jpg");
 }
