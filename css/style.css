@@ -7,7 +7,7 @@
     background: #4EA0FF url("../img/pattern.png") repeat-x top center;
     background-size: 350px 175px;
 }
-#logoSection img{
+#logoDiv img{
     height: 40px;
     padding-left: 5px;
     padding-top: 40px;
