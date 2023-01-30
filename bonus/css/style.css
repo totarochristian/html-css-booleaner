@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+}
+main{
+    margin: 5px;
+    width: 900px;
+}
+#logoDiv{
+    height: 90px;
+    background: #4EA0FF url("../img/pattern.png") repeat-x top center;
+    background-size: 350px 175px;
+}
+#logoDiv img{
+    height: 40px;
+    padding-left: 5px;
+    padding-top: 40px;
+}
+#titleSection h1{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 0.6em;
+    font-size: 2.1em;
+}
+.authorParagraph, .dateParagraph{
+    margin: 0;
+    color: grey;
+    font-size: 0.9em;
+}
+.dateParagraph{
+    font-size: 0.6em;
+}
+.author{
+    color: #4EA0FF;
+}
+.timFigure{
+    width: 100%;;
+    margin-top: 15px;
+    margin-left: 0;
+}
+.timFigure img{
+    height: 310px;
+}
+.timFigure figcaption{
+    font-size: 0.7em;
+}
+.specialParagraph{
+    font-size: 0.9em;
+}
+.specialParagraph ul{
+    padding-left: 15px;
+}
+table thead{
+    background-color: #20A9E5;
+    color: white;
+    text-align: left;
+}
+table .rigaColorata{
+    background-color: #B1E5F2;
+}
+.colonnaStretta{
+    width: 20%;
+}
+.colonnaLarga{
+    width: 60%;
+}
+.mightInterest{
+    margin-top: 20px;
+}
+.mightInterest h2{
+    color: grey;
+    font-size: 0.9em;
+    font-weight: 800;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.articolo{
+    height: 150px;
+    width: 180px;
+    color: white;
+    font-weight: 800;
+    padding: 10px;
+    margin: 5px;
+    font-size: 1em;
+}
+#articolo1, #articolo2{
+    background-size: cover;
+    background-position: center;
+}
+#articolo1{
+    background-image: url("../img/monitor.jpg");
+}
+#articolo2{
+    background-image: url("../img/graph.jpg");
+}
