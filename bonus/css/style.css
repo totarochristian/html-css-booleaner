@@ -58,13 +58,13 @@ table thead{
     color: white;
     text-align: left;
 }
-table .rigaColorata{
+table .coloredRow{
     background-color: #B1E5F2;
 }
-.colonnaStretta{
+.tightColumn{
     width: 20%;
 }
-.colonnaLarga{
+.largeColumn{
     width: 60%;
 }
 .mightInterest{
@@ -78,7 +78,7 @@ table .rigaColorata{
     margin-left: 5px;
     margin-bottom: 5px;
 }
-.articolo{
+.article{
     height: 150px;
     width: 180px;
     color: white;
@@ -87,13 +87,13 @@ table .rigaColorata{
     margin: 5px;
     font-size: 1em;
 }
-#articolo1, #articolo2{
+#article1, #article2{
     background-size: cover;
     background-position: center;
 }
-#articolo1{
+#article1{
     background-image: url("../../img/monitor.jpg");
 }
-#articolo2{
+#article2{
     background-image: url("../../img/graph.jpg");
 }
