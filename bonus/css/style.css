@@ -1,13 +1,17 @@
+.openedArticle{
+    width: 50%;
+    margin: auto;
+}
 body{
     margin: 0;
 }
 main{
     margin: 5px;
-    width: 900px;
+    width: 100%;
 }
 #logoDiv{
     height: 90px;
-    background: #4EA0FF url("../img/pattern.png") repeat-x top center;
+    background: #4EA0FF url("../../img/pattern.png") repeat-x top center;
     background-size: 350px 175px;
 }
 #logoDiv img{
@@ -64,6 +68,7 @@ table .rigaColorata{
     width: 60%;
 }
 .mightInterest{
+    width: 100%;
     margin-top: 20px;
 }
 .mightInterest h2{
@@ -87,8 +92,8 @@ table .rigaColorata{
     background-position: center;
 }
 #articolo1{
-    background-image: url("../img/monitor.jpg");
+    background-image: url("../../img/monitor.jpg");
 }
 #articolo2{
-    background-image: url("../img/graph.jpg");
+    background-image: url("../../img/graph.jpg");
 }
