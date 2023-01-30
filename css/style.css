@@ -43,6 +43,9 @@ main{
 .timFigure figcaption{
     font-size: 0.7em;
 }
-.markedParagraph{
+.specialParagraph{
     font-size: 0.9em;
+}
+.specialParagraph ul{
+    padding-left: 15px;
 }
