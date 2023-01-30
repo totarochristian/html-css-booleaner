@@ -1,5 +1,5 @@
 .openedArticle{
-    width: 50%;
+    width: 40%;
     margin: auto;
 }
 body{
@@ -42,7 +42,7 @@ main{
     margin-left: 0;
 }
 .timFigure img{
-    height: 310px;
+    height: 25vh;
 }
 .timFigure figcaption{
     font-size: 0.7em;
@@ -53,12 +53,15 @@ main{
 .specialParagraph ul{
     padding-left: 15px;
 }
-table thead{
+.specialParagraph table{
+    max-width: 900px;
+}
+.specialParagraph table thead{
     background-color: #20A9E5;
     color: white;
     text-align: left;
 }
-table .coloredRow{
+.specialParagraph table .coloredRow{
     background-color: #B1E5F2;
 }
 .tightColumn{
