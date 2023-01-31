@@ -51,6 +51,7 @@ main{
 }
 .specialParagraph table{
     max-width: 900px;
+    border-spacing: 0;
 }
 .specialParagraph table thead{
     background-color: #20A9E5;
